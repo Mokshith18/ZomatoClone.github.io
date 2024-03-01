@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Okra , Helvetica, sans-serif;
+    width: 100%;
+    overflow: auto;
+
+}
+.zomato-image{
+    position: relative; 
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-color: bisque;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 100%;
+    background-size: cover;
+    display: block;
+    
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 10px 0 ;
+}
+
+li a{
+    color: aliceblue;
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+}
+.left-side{
+    padding: 0 0 0 150px;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px ;
+}
+
+.inner-image{
+    height: 60px;
+    width: 20%;
+}
+.res-image{
+   display: flex;
+   justify-content: center;
+   padding: 10px 0 20px 0;
+}
+.description{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.location{
+    padding-left: 25px;
+    margin-left: 370px;
+    width:250px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    cursor:text;
+    display: inline-block;
+}
+.cuisine{
+    padding-left: 25px;
+    width:550px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    cursor:text;
+}
+.cards{
+    position: relative;
+    margin-top: 20px; 
+    
+}
+
+.food-card {
+    position: relative;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: 0.3s;
+    margin-left: 170px;
+    display: inline-block;
+    border-radius:  0 0 15px 15px;
+  } 
+.food{
+    height: 192px;
+    width: 350px;
+    border-radius: 5px 5px 0 0;
+    
+}
+.food-card:hover{
+        box-shadow: 10px 18px 16px 0 grey; 
+}
+.food-text{
+    padding-left: 10px;
+}
+.food-card a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.dinning-card{
+    position: relative;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: 0.3s;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius:  0 0 15px 15px;
+}
+.dinning{
+    position: relative;
+    border-radius: 5px 5px 0 0 ;
+    height: 192px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.dinning-card:hover{
+    box-shadow: 10px 18px 16px 0 grey;
+}
+.dining-text{
+    padding-left: 10px;
+}
+.dinning-card a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.night-card{
+    position: relative;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: 0.3s;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius:  0 0 15px 15px;
+}
+.night{
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    height: 192px;
+    width: 350px;
+}
+.night-card:hover{
+    box-shadow: 10px 18px 16px 0 grey;
+}
+.night-text{
+    padding-left: 10px;
+}
+.night-card a{
+    text-decoration: none;
+    color: black;
+}
+
+.collection{
+    margin: 60px 0 0 170px;
+}
+.collection h2{
+    font-size: 50px;
+    font-weight: 300;
+}
+.col-image{
+    display: flex;
+}
+.col-image img{
+    border-radius: 15px
+    
+}
+.col-1{
+    position: relative;
+    
+}
+.col-1 p{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.col-2{
+    position: relative;
+    margin-left: 35px;
+}
+.col-2 p{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+}
+
+.col-3{
+    position: relative;
+    margin-left: 35px;
+}
+.col-3 p{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.col-4{
+    position: relative;
+    margin-left: 35px;
+}
+.col-4 p{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.local{
+    margin: 60px  170px; 
+   
+}
+.local h2{
+    font-size: 50px;
+    font-weight: 300;
+}
+.local-ind{
+    border: 2px ridge white;
+    width: 350px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.local-div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /* left: -35px; */
+}
+.local-text{
+    padding: 10px 0 0 10px;
+
+}
+.local-ind:hover{
+    box-shadow: 2px 2px 2px grey;
+}
+
+.app-back{
+    margin-top: 50px;
+    background-color: rgb(255, 251, 247);
+    /* background-color: blanchedalmond; */
+    
+}
+.app-image{
+    height: 280px;
+    width: 250px;
+}
+.app-content{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 140px; */
+    padding: 30px 0 30px 0;
+}
+.play-image{
+    width: 137px;
+    height: 40px;
+}
+.ios-image{
+    width: 137px;
+    height: 40px;
+}
+.app-h2{
+    color: black;
+    font-size: 50px;
+    font-weight: 300;
+}
+.app-inbetween{
+    margin-right: 40px; 
+}
+.app-drop{
+    margin-top: 15px;
+}
+.app-inp{
+    margin-top: 15px;
+}
+#em{
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+}
+.app-button{
+   background-color: red;
+   color: white;
+    width: 30%;
+    height: 40px;
+    font-family: 20px;
+    font-weight: 500;
+}
+.near-list{
+    margin: 60px 0 0 170px;
+}
+ .list1{
+    width: 75%;
+    height: 60px;
+    background-color: whitesmoke;
+    text-align: left;
+    margin-bottom: 20px;
+    border: 0 solid white;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    border-radius: 5px;
+} 
+.near-list h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+}
+.list1 p{
+    margin: 0 !important;
+    font-weight: 200;
+    font-size: 20px;
+}
+.foot{
+   
+    background-color: rgb(248,248,248);
+}
+.foot-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+.foot-content{
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot-sub p a{
+    text-decoration: none;
+    color: grey;
+}
+.foot-button{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot-button a{
+    padding: 15px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color:black;
+}
+.social-icon i{
+    padding-left:10px ;
+}
+.social-icon{
+    margin-bottom: 15px;
+}
+.term{
+    margin-bottom: 0;
+    padding: 2% 10%;
+}
+
+.see-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
